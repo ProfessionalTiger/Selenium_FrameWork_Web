@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-06-09T22:12:22Z" name="saucedemo.V1" finished-at="2020-06-09T22:12:38Z" duration-ms="16315">
+    <groups>
+    </groups>
+    <test started-at="2020-06-09T22:12:22Z" name="E-commerce" finished-at="2020-06-09T22:12:38Z" duration-ms="16315">
+      <class name="sauce.TestCases.LoginTC_001">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:sauce.TestCases.LoginTC_001@3b07a0d6]" started-at="2020-06-09T22:12:22Z" name="setup" finished-at="2020-06-09T22:12:27Z" duration-ms="5065" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chorme]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:0, instance:sauce.TestCases.LoginTC_001@3b07a0d6]" started-at="2020-06-09T22:12:27Z" name="loginTest" finished-at="2020-06-09T22:12:34Z" duration-ms="6470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:sauce.TestCases.LoginTC_001@3b07a0d6]" started-at="2020-06-09T22:12:34Z" name="tearDown" finished-at="2020-06-09T22:12:38Z" duration-ms="4596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- sauce.TestCases.LoginTC_001 -->
+    </test> <!-- E-commerce -->
+  </suite> <!-- saucedemo.V1 -->
+</testng-results>

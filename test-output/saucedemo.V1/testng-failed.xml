@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [saucedemo.V1]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="sauce.Utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="E-commerce(failed)">
+    <parameter name="browser" value="chorme"/>
+    <classes>
+      <class name="sauce.TestCases.LoginTC_DD_002">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="LoginDD" invocation-numbers="1 2 3"/>
+        </methods>
+      </class> <!-- sauce.TestCases.LoginTC_DD_002 -->
+    </classes>
+  </test> <!-- E-commerce(failed) -->
+</suite> <!-- Failed suite [saucedemo.V1] -->
