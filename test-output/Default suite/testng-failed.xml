@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="sauce.TestCases.LoginTC_DD_002">
+      <class name="parser.TestCases.ParseDate">
         <methods>
+          <include name="ParserDD"/>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="LoginDD"/>
         </methods>
-      </class> <!-- sauce.TestCases.LoginTC_DD_002 -->
+      </class> <!-- parser.TestCases.ParseDate -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
